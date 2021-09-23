@@ -6,7 +6,7 @@
     <!-- <PersonFather/> -->
     <!-- <Event/> -->
     <!-- <Example/> -->
-    <BlogPostDemo/>
+    <WatchBlogPost/>
   </div>
 </template>
 
@@ -16,7 +16,7 @@
 // import PersonFather from '@/views/Person/PersonFather.vue'
 // import Event from '@/views/Method/Event.vue'
 // import Example from '@/views/ClassStyle/Example.vue'
-import BlogPostDemo from '@/views/Basic/BlogPostDemo.vue'
+import WatchBlogPost from '@/views/Basic/WatchBlogPost.vue'
 
 export default {
   name: 'App',
@@ -26,7 +26,7 @@ export default {
     // PersonFather,
     // Event
     // Example
-    BlogPostDemo
+    WatchBlogPost
   }
 }
 </script>
