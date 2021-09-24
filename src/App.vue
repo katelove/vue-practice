@@ -7,6 +7,7 @@
     <!-- <Event/> -->
     <!-- <Example/> -->
     <WatchBlogPost/>
+    <!-- <BlogPostDemo/> -->
   </div>
 </template>
 
@@ -17,7 +18,7 @@
 // import Event from '@/views/Method/Event.vue'
 // import Example from '@/views/ClassStyle/Example.vue'
 import WatchBlogPost from '@/views/Basic/WatchBlogPost.vue'
-
+// import BlogPostDemo from  "@/views/Watch/BlogPostDemo.vue";
 export default {
   name: 'App',
   components: {
@@ -27,6 +28,7 @@ export default {
     // Event
     // Example
     WatchBlogPost
+    // BlogPostDemo
   }
 }
 </script>

@@ -3,10 +3,13 @@
     <BlogPost
       v-for="post in posts"
       v-bind:key="post.id"
-      v-bind:title="post.title"
+      v-bind:post="post.title"
+       v-on:enlarge-text="onEnlargeText"
     >
     </BlogPost>
   </div>
+
+
 </template>
 
 <script>
@@ -15,7 +18,7 @@ export default {
   name: "WatchBlogPost",
   data() {
     return {
-      postFontSize: 5,
+      postFontSize: 2,
       posts: [
         {
           id: 1,
@@ -31,6 +34,12 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    onEnlargeText: function(enlargeAmount) {
+      console.log("enlargeAmount:" + enlargeAmount);
+      this.postFontSize += enlargeAmount;
+    },
   },
   components: {
     BlogPost,
