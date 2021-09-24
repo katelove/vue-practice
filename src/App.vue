@@ -6,8 +6,8 @@
     <!-- <PersonFather/> -->
     <!-- <Event/> -->
     <!-- <Example/> -->
-    <WatchBlogPost/>
-    <!-- <BlogPostDemo/> -->
+    <!-- <WatchBlogPost/> -->
+    <CustomDemo/>
   </div>
 </template>
 
@@ -17,7 +17,7 @@
 // import PersonFather from '@/views/Person/PersonFather.vue'
 // import Event from '@/views/Method/Event.vue'
 // import Example from '@/views/ClassStyle/Example.vue'
-import WatchBlogPost from '@/views/Basic/WatchBlogPost.vue'
+import CustomDemo from '@/views/VModel/CustomDemo.vue'
 // import BlogPostDemo from  "@/views/Watch/BlogPostDemo.vue";
 export default {
   name: 'App',
@@ -27,8 +27,8 @@ export default {
     // PersonFather,
     // Event
     // Example
-    WatchBlogPost
-    // BlogPostDemo
+    // WatchBlogPost
+    CustomDemo
   }
 }
 </script>

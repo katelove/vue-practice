@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import ButtonCounter from "@/views/Basic/ButtonCounter.vue";
+import ButtonCounter from "@/views/Watch/custom-input.vue";
 export default {
   name: "Demo",
   components: {
