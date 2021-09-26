@@ -7,7 +7,8 @@
     <!-- <Event/> -->
     <!-- <Example/> -->
     <!-- <WatchBlogPost/> -->
-    <CustomDemo/>
+    <!-- <CustomDemo/> -->
+    <BaseCheckDemo/>
   </div>
 </template>
 
@@ -17,8 +18,10 @@
 // import PersonFather from '@/views/Person/PersonFather.vue'
 // import Event from '@/views/Method/Event.vue'
 // import Example from '@/views/ClassStyle/Example.vue'
-import CustomDemo from '@/views/VModel/CustomDemo.vue'
+// import CustomDemo from '@/views/VModel/CustomDemo.vue'
 // import BlogPostDemo from  "@/views/Watch/BlogPostDemo.vue";
+// import AlertDemo from  "@/views/Alert/AlertDemo.vue"
+import BaseCheckDemo from  "@/views/VModel/BaseCheckDemo.vue"
 export default {
   name: 'App',
   components: {
@@ -28,7 +31,8 @@ export default {
     // Event
     // Example
     // WatchBlogPost
-    CustomDemo
+    // CustomDemo
+    BaseCheckDemo
   }
 }
 </script>

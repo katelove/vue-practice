@@ -14,13 +14,7 @@ export default {
       lovinVue: true, 
     };
   },
-  props: {
-    checked: Boolean,
-  },
-  model: {
-    prop: "checked",
-    event: "change",
-  },
+
   components: {
     BaseCheckBox,
   },
