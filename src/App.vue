@@ -8,7 +8,7 @@
     <!-- <Example/> -->
     <!-- <WatchBlogPost/> -->
     <!-- <CustomDemo/> -->
-    <BaseCheckDemo/>
+    <TabDemo/>
   </div>
 </template>
 
@@ -21,7 +21,8 @@
 // import CustomDemo from '@/views/VModel/CustomDemo.vue'
 // import BlogPostDemo from  "@/views/Watch/BlogPostDemo.vue";
 // import AlertDemo from  "@/views/Alert/AlertDemo.vue"
-import BaseCheckDemo from  "@/views/VModel/BaseCheckDemo.vue"
+// import BaseCheckDemo from  "@/views/VModel/BaseCheckDemo.vue"
+import TabDemo from  "@/views/Dynamic/TabDemo.vue"
 export default {
   name: 'App',
   components: {
@@ -32,7 +33,7 @@ export default {
     // Example
     // WatchBlogPost
     // CustomDemo
-    BaseCheckDemo
+    TabDemo
   }
 }
 </script>
