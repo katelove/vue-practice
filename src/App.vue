@@ -9,6 +9,7 @@
     <!-- <WatchBlogPost/> -->
     <!-- <CustomDemo/> -->
     <TabDemo/>
+    <router-view></router-view>
   </div>
 </template>
 
