@@ -26,6 +26,25 @@ const routes=[
             name: "Bar",
             component: () => import("@/views/Router/Bar.vue"),
         }]
+    },{
+        path: "/v-bind",
+        name: "v-bind",
+        component: () => import("@/views/VbindData/index.vue"),
+    },
+    {
+        path: "/js",
+        name: "js",
+        component: () => import("@/views/JS/index.vue"),
+    },
+    {
+        path: "/props",
+        name: "props",
+        component: () => import("@/views/Props"),
+    },
+    {
+        path: "/emit",
+        name: "emit",
+        component: () => import("@/views/Emit"),
     }
 ]
 
