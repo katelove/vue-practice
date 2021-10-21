@@ -45,6 +45,11 @@ const routes=[
         path: "/emit",
         name: "emit",
         component: () => import("@/views/Emit"),
+    },
+    {
+        path: "/btn",
+        name: "button",
+        component: () => import("@/views/Buttona"),
     }
 ]
 
