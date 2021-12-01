@@ -50,6 +50,11 @@ const routes=[
         path: "/btn",
         name: "button",
         component: () => import("@/views/Buttona"),
+    },
+    {
+        path: "/colorWord",
+        name: "colorWord",
+        component: () => import("@/views/colorWord"),
     }
 ]
 
